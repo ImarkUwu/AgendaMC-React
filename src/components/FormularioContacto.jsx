@@ -12,7 +12,7 @@ function FormularioContacto({ onGuardar }) {
         const apellidoTrim = apellido.trim();
         const telefonoTrim = telefono.trim();
 
-        // VALIDACIONES (idénticas a la versión original)
+        // VALIDACIONES
         if (!nombreTrim || !apellidoTrim || !telefonoTrim) {
             onGuardar(null, "Todos los campos son obligatorios", "warning");
             return;
