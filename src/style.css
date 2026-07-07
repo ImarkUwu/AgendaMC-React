@@ -1,0 +1,67 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+/* CARD PRINCIPAL */
+.card {
+    width: 1100px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 10px 25px rgba(173, 216, 230, 0.35);
+}
+/* HEADER AZUL PASTEL */
+.card-header {
+    background: linear-gradient(135deg, #a7c7e7, #8fbbe8);
+    color: white;
+    border-radius: 16px 16px 0 0 !important;
+}
+/* =========================
+   BOTÓN GUARDAR (PRINCIPAL)
+========================= */
+.btn-success {
+    background-color: #a7c7e7;
+    border: none;
+    color: #fff;
+}
+.btn-success:hover {
+    background-color: #8fbbe8;
+}
+/* =========================
+   BOTÓN BUSCAR
+========================= */
+.btn-primary {
+    background-color: #bcd8f2;
+    border: none;
+    color: #1f2d3d;
+}
+.btn-primary:hover {
+    background-color: #a7c7e7;
+    color: white;
+}
+/* =========================
+   BOTÓN RECARGAR
+========================= */
+.btn-secondary {
+    background-color: #e3edf7;
+    border: none;
+    color: #1f2d3d;
+}
+.btn-secondary:hover {
+    background-color: #cfe3f5;
+}
+/* MENSAJES */
+#mensaje {
+    font-weight: bold;
+}
+/* TABLA CON SCROLL */
+.table-container {
+    max-height: 450px;
+    overflow-y: auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+}
+/* FOOTER */
+footer {
+    margin-top: 20px;
+    color: #777;
+}
